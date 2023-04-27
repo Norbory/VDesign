@@ -18,8 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Issues][issues-shield]][https://github.com/Norbory/VDesign/issues]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/angelo-fabrizio-mandros-ramos/]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -76,8 +80,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://live.staticflickr.com/65535/52851052560_f6b77a377b_m.jpg)
+![alt text](https://github.com/Norbory/VDesign/blob/master/assets/images/Captura.png?raw=true)
 
 Aqui una captura del proyecto y un poco mas de informacion sobre el autor del proyecto: `Norbory`, `VDesign`, `https://www.linkedin.com/in/angelo-fabrizio-mandros-ramos/`, `mandros.angelof@pucp.edu.pe`, `virtual dresser`
 
