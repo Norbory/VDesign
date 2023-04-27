@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   }
+html,
+body{
+    height: 100vh;
+    scroll-behavior: smooth;
+    display: flex;
+    font-size: 62.5%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/gifs/41449-carousel.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+body::-webkit-scrollbar{
+        width: 12px;               /* width of the entire scrollbar */
+    }
+body::-webkit-scrollbar-track{
+        background: #f5f6f7;        /* color of the tracking area */
+    }
+body::-webkit-scrollbar-thumb{
+        background-color: #404040;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+        border: 2px solid #f5f6f7;  /* creates padding around scroll thumb */
+    }
+/* Seccion del medio */
+.ilos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Cajas en general */
+section{
+    border: 0.7px solid #252525;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 30px 0px;
+}
+/* Bloque por bloque */
+.bloque0{
+    /* #ff5e6c */
+    min-width: 25vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+    background-color: transparent;
+}
+.bloque1{
+    min-width: 45vw;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(46, 196, 182, 0.95);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Elementos de los bloques */
+/* E. de bloque 0 */
+.bloque0 h1{
+    font-family: "Raleway", sans-serif;
+}
+/* E. de bloque 1 */
+.opciones{
+    display: flex;
+    gap: 20px;
+}
+.opciones h1{
+    color: azure;
+    overflow-y: hidden;
+    font-size: 3.2rem;
+}
+.opciones h1:first-child{
+    text-decoration: underline;
+    color: #011627;
+}
+.opciones h1:last-child:hover{
+    text-decoration: underline;
+    color: #011627;
+}
+label, input[type=text], input[type=password], input[type=submit]{
+    font-size: 1.8rem;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=submit] {
+    width: 100%;
+    background-color: #011627;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #252525;
+  }
+svg{
+    size: 150px;
+}
