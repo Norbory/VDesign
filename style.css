@@ -51,6 +51,7 @@ section{
     align-items: center;
     height: 620px;
     background-color: transparent;
+    transition: order 0.8s ease-in-out;
 }
 .bloque1{
     min-width: 45vw;
@@ -60,6 +61,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: order 0.8s ease-in-out;
 }
 /* Elementos de los bloques */
 /* E. de bloque 0 */
@@ -76,8 +78,8 @@ section{
     overflow-y: hidden;
     font-size: 3.2rem;
 }
-.opciones h1:first-child{
-    text-decoration: underline;
+.opciones a{
+    text-decoration: none;
     color: #011627;
 }
 .opciones h1:last-child:hover{
