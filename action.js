@@ -13,7 +13,7 @@ AWS.config.update({
   });
 
 const dynamodb = new AWS.DynamoDB();
-
+ 
 
 form.addEventListener('submit', function(event) {
 event.preventDefault();
